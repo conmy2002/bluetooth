@@ -1,0 +1,6 @@
+.scf-quicksearch-form-group{position:relative;z-index:101}
+.scf-quicksearch-form-group ul.ui-autocomplete{width:400px}
+.scf-quicksearch-form-group .ui-menu-item{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px}
+.scf-quicksearch-form-group .ui-menu-item .glyphicon{display:inline-block;margin:7px 10px 0 0}
+.scf-quicksearch-form-group .scf-quicksearch-item-url{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;display:block;margin-left:25px;width:320px;font-size:12px}
+.ui-autocomplete{max-height:550px;overflow-y:auto;overflow-x:hidden}

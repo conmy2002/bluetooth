@@ -1,0 +1,13 @@
+.scf-voting{width:auto;cursor:pointer}
+.scf-voting .scf-votingLabel{font-size:18px;width:24px;text-align:right}
+.scf-voting span{border:0;background-color:transparent;background-position:center;background-repeat:no-repeat;cursor:pointer;display:block;text-align:center;width:38px}
+.scf-voting .scf-vote-up:hover:before,.scf-voting .scf-vote-down:hover:before,.scf-voting .scf-vote-up.scf-voting-unset:hover:before,.scf-voting .scf-vote-down.scf-voting-unset:hover:before{color:#4191d2}
+.scf-voting .scf-vote-up:before{content:"";font-family:SCFIcons;font-size:16px;color:#b4b4b4}
+.scf-voting .scf-vote-down:before{content:"";font-family:SCFIcons;font-size:16px;color:#b4b4b4}
+.scf-voting .scf-vote-up.scf-voting-unset:before{color:#82aa46}
+.scf-voting .scf-vote-down.scf-voting-unset:before{color:#eb413c}
+.scf-voting .scf-votingLabel[data-vote-count]{color:#82aa46}
+.scf-voting .scf-votingLabel[data-vote-count='0']{color:#b4b4b4}
+.scf-voting .scf-votingLabel[data-vote-count*='-']{color:#eb413c}
+.scf-voting .scf-is-disabled{cursor:not-allowed}
+.scf-voting .scf-is-disabled:hover:before,.scf-voting .scf-voting-unset.scf-is-disabled:hover:before{color:#b4b4b4}
